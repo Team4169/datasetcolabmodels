@@ -1,0 +1,6 @@
+opencv-python
+numpy
+importlib-util
+tensorflow-lite
+matplotlib
+argparse
