@@ -14,7 +14,7 @@ import argparse
 
 # Parse command line arguments
 parser = argparse.ArgumentParser()
-parser.add_argument('--model', required=True, help='Path to the TensorFlow Lite model')
+parser.add_argument('--weights', required=True, help='Path to the TensorFlow Lite model')
 parser.add_argument('--labelmap', required=True, help='Path to the label map file')
 parser.add_argument('--threshold', type=float, default=0.4, help='Detection threshold')
 args = parser.parse_args()
